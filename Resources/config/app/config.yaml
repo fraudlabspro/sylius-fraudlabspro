@@ -1,0 +1,10 @@
+sylius_ui:
+    events:
+        sylius.admin.channel.update.form:
+            blocks:
+                fraudlabs_fields:
+                    template: "@FraudLabsProSyliusFraudLabsProPlugin/Admin/Channel/_fraudFields.html.twig"
+        sylius.admin.channel.create.form:
+            blocks:
+                fraudlabs_fields:
+                    template: "@FraudLabsProSyliusFraudLabsProPlugin/Admin/Channel/_fraudFields.html.twig"

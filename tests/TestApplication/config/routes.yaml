@@ -1,0 +1,5 @@
+fraud_labs_pro_sylius_fraud_labs_pro_plugin_admin:
+    resource: "@FraudLabsProSyliusFraudLabsProPlugin/config/routes/admin.yaml"
+
+fraud_labs_pro_sylius_fraud_labs_pro_plugin_shop:
+    resource: "@FraudLabsProSyliusFraudLabsProPlugin/config/routes/shop.yaml"

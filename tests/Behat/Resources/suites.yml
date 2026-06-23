@@ -1,0 +1,10 @@
+# Put your Behat suites definitions here
+
+default:
+    suites:
+        greeting_customer:
+            contexts:
+                - fraud_labs_pro_sylius_fraud_labs_pro_plugin.context.ui.shop.welcome
+
+            filters:
+                tags: "@greeting_customer"
